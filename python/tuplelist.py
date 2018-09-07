@@ -1,0 +1,20 @@
+s=list(map(str,input().split()))
+t=tuple(s)
+print("list is",s)
+s.append("aaa")
+print(s)
+l=['3','4','5']
+s.extend(l)
+print(s)
+s.insert(2,'1')
+print(s)
+print(s.pop(3))
+s.sort()
+print(s)
+print(len(s),max(s),min(s))
+t=tuple(s)
+print("tuple is",t)
+print(t.count('1'),t.index('1'))
+print(len(t),min(t),max(t))
+
+
